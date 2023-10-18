@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local JSON Tree Viewer</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+  <label for="jsonFileInput">Upload JSON</label>
+  <input type="file" id="jsonFileInput" accept=".json">
+  <div id="controls">
+    <button id="decreaseDepth">-</button>
+    <span id="depthDisplay">Depth</span>
+    <button id="increaseDepth">+</button>
+  </div>
+  <div id="treeContainer"></div>
+  <div id="treeContainer" style="width: 100%; height: 500px; border: 1px solid black;"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

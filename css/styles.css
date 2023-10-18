@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* File Input */
+#jsonFileInput {
+    display: none;  /* Hide the default input */
+}
+
+label[for="jsonFileInput"] {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+label[for="jsonFileInput"]:hover {
+    background-color: #777;
+}
+
+
+/* Controls */
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  /* Space between items */
+    padding: 10px 0;
+}
+
+
+#controls button {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid transparent; /* Initialize with transparent border */
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#controls button:hover {
+    background-color: #fff; /* White background on hover */
+    color: #555; /* Text color to match initial background */
+    border-color: #555; /* Border color to match initial background */
+}
+
+#controls #depthDisplay {
+    margin: 0 10px;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#treeContainer {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.link {
+    fill: none;
+    stroke: #555;
+    stroke-opacity: 0.4;
+    stroke-width: 1.5px;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node text {
+    font: 10px sans-serif;
+    fill: #555;
+}
+
+.node:hover rect {
+    transform: scale(1.1);
+    cursor: pointer; // To indicate interactivity
+}
+
+.node rect {
+    transition: transform 0.3s ease;
+}
+
+.node:hover text {
+    transform: scale(1.1);
+    cursor: pointer; // To indicate interactivity
+}
+
+.node text {
+    transition: transform 0.3s ease;
+}

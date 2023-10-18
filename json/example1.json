@@ -1,0 +1,50 @@
+{
+    "Fontainebleau": {
+        "Basic Information": {
+            "Pronunciation": "/ˈfɒntɪnbloʊ/ FON-tin-bloh",
+            "Location": "metropolitan area of Paris, France",
+            "Distance from Paris": "55.5 kilometres (34.5 mi) south-southeast",
+            "Land Area": "largest in the Île-de-France region",
+            "Closest Prefecture": "Seine-et-Marne Prefecture, Melun",
+            "Rail Stations": ["Fontainebleau–Avon", "Thomery"]
+        },
+        "History": {
+            "Origins of the Name": [
+                "Fons Bleaudi", "Fons Bliaudi", "Fons Blaadi", "Fontem blahaud", "Fontaine belle eau", "Fons Bellaqueus"
+            ],
+            "Historical Events": [
+                "Endowment by Louis VII", "Residence of Louis IX", "Philip the Fair's birth and death",
+                "Transformation into a royal palace", "Edict of Fontainebleau", "1762 Treaty of Fontainebleau",
+                "Preliminary negotiations for the 1763 Treaty of Paris", "French Revolution renaming",
+                "Treaty of Fontainebleau in 1807", "Pope Pius VII's imprisonment", "Napoleon's farewell",
+                "1814 Treaty of Fontainebleau", "Franco-Vietnamese Conference in 1946", "NATO base until 1967"
+            ]
+        },
+        "Urban Area": {
+            "Population": "36,724 inhabitants (2018)",
+            "Relation to Paris": "satellite of Paris",
+            "Neighbouring Communes": ["Avon", "three other smaller communes"]
+        },
+        "Attractions": {
+            "Forest of Fontainebleau": {
+                "Reputation": "large and scenic",
+                "Visitors": "Parisians' weekend getaway",
+                "Wildlife Conservation": "true",
+                "Features": ["rocky formations", "rare service tree", "bouldering area"]
+            },
+            "Château de Fontainebleau": {
+                "Ownership History": "once belonged to the kings of France",
+                "Renaissance Connection": "true",
+                "Tourists": "300,000 people visit annually"
+            },
+            "INSEAD Business School": "one of the world's most elite business schools",
+            "Other": ["historic tennis court", "Centre hospitalier Sud Seine et Marne"]
+        },
+        "Notable People": [
+            "Aga Khan IV", "Alfonso XIII", "Arnold Bennett", "Rosa Bonheur", "Gabrièle Buffet-Picabia", "Christina, Queen of Sweden"
+        ],
+        "Twinning with Other Cities": [
+            "Konstanz, Germany", "Richmond-upon-Thames, England", "Siem Reap, Cambodia", "Nanjing, China", "Lodi, Italy", "Sintra, Portugal", "Alba Iulia, Romania"
+        ]
+    }
+}

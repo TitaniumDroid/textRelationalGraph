@@ -1,0 +1,19 @@
+{
+  "name": "Alexandre",
+  "children": [
+    {
+      "name": "Katherine",
+      "children": [
+        { "name": "Nan" },
+        { "name": "Papoo" }
+      ]
+    },
+    {
+      "name": "Kevin",
+      "children": [
+        { "name": "Grandpa", "children": [{ "name": "August" }] },
+        { "value": "true" ,"name": "Grandma"}
+      ]
+    }
+  ]
+}
