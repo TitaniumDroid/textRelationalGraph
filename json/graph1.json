@@ -1,0 +1,42 @@
+{
+    "nodes": [
+        {"id": "Alia", "label": "Alia"},
+        {"id": "Ben", "label": "Ben"},
+        {"id": "Clarissa", "label": "Clarissa"},
+        {"id": "Damon", "label": "Damon"},
+        {"id": "Elise", "label": "Elise"},
+        {"id": "Troisville", "label": "Troisville Town"},
+        {"id": "CollegeLoveStory", "label": "Alia and Ben's College Love Story"},
+        {"id": "21stBirthday", "label": "Clarissa's 21st Birthday"},
+        {"id": "VanishingBook", "label": "Mysteriously Vanishing Book"},
+        {"id": "LocalBookClub", "label": "Local Book Club"},
+        {"id": "SummerCampSecret", "label": "Stolen Kiss at Summer Camp"},
+        {"id": "CupcakeBusiness", "label": "Cupcake Business"},
+        {"id": "MoonTattoos", "label": "Matching Moon Tattoos"},
+        {"id": "Podcast", "label": "Elise and Alia's Podcast"},
+        {"id": "Band", "label": "Band Formed by the Friends"},
+        {"id": "RoadTrips", "label": "Summer Road Trips"},
+        {"id": "NewYearsEve", "label": "New Year's Eve Letters"},
+        {"id": "EpicSaga", "label": "Epic Saga of Emotions"}
+    ],
+    "edges": [
+        {"source": "Alia", "target": "Ben", "relation": "college romance"},
+        {"source": "Ben", "target": "Clarissa", "relation": "childhood neighbors"},
+        {"source": "Ben", "target": "Clarissa", "relation": "book club co-founders"},
+        {"source": "Ben", "target": "Clarissa", "relation": "misplaced love letter"},
+        {"source": "Clarissa", "target": "Damon", "relation": "secret kiss"},
+        {"source": "Clarissa", "target": "Damon", "relation": "cupcake business partners"},
+        {"source": "Clarissa", "target": "Ben", "relation": "borrowed money"},
+        {"source": "Damon", "target": "Elise", "relation": "former step-siblings"},
+        {"source": "Damon", "target": "Elise", "relation": "matching tattoos"},
+        {"source": "Elise", "target": "Alia", "relation": "shared ex-boyfriend"},
+        {"source": "Elise", "target": "Alia", "relation": "podcast co-hosts"},
+        {"source": "Elise", "target": "Alia", "relation": "revealed family secret"},
+        {"source": "Clarissa", "target": "21stBirthday", "relation": "celebration event"},
+        {"source": "21stBirthday", "target": "CollegeLoveStory", "relation": "reunion event"},
+        {"source": "VanishingBook", "target": "Damon", "relation": "inadvertent cause"},
+        {"source": "Band", "target": "Damon", "relation": "tension source"},
+        {"source": "Band", "target": "Clarissa", "relation": "tension source"},
+        {"source": "Troisville", "target": "EpicSaga", "relation": "location of saga"}
+    ]
+}

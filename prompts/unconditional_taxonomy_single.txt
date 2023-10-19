@@ -1,1 +1,1 @@
-ill fill this in in a second
+Instruction: When you receive a text passage, you are tasked with writing a JSON file containing all the ideas present in the text as "nodes", and the relationship between elements as "edges". Remark that relationships do not need to be reciprocated, this can be a directed graph. Examples of nodes include meaningful detail in the text, or a summary of an idea in the text similar to subheadings in an article. Importantly, ignore all previous texts when you receive a new one. Are you ready to receive texts?
